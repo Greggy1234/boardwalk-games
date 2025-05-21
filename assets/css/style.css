@@ -22,7 +22,15 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+}
+
+h1,
+h2 {
   text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom:2rem;
 }
 
 .sub-heading-color {
@@ -50,6 +58,16 @@ h3 {
   font-family: var(--secondary-font);
 }
 
+/* Services */
+#services .card {
+  margin-bottom:1.5rem;
+}
+
+#services .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
 
 /* Grid Visualisation */
 /* .conainer, .row {
@@ -60,3 +78,41 @@ h3 {
     border: 2px solid white;
     background-color:lightgrey;
 } */
+
+/* Media Queries */
+
+/* Medium sized screens (tablets up, min width 768px) */
+@media screen and (min-width: 768px) {
+  /*to make cards the same height across devices above the medium size */
+  #services .card-body {
+    min-height:191px;
+  }
+  
+}
+
+/* Large sized screens (laptops up, min width 992px) */
+@media screen and (min-width: 992px) {
+  /*to make cards the same height across devices above the medium size */
+  #services .card-body {
+    min-height:auto;
+  }
+  
+}
+
+/* XL sized screens (laptops up, min width 1200px) */
+@media screen and (min-width: 1200px) {
+  /*to make cards the same height across devices above the medium size */
+  #services .card-body {
+    min-height:218px;
+  }
+  
+}
+
+/* XXL sized screens (laptops up, min width 1400px) */
+@media screen and (min-width: 1400px) {
+  /*to make cards the same height across devices above the medium size */
+  #services .card-body {
+    min-height:195px;
+  }
+  
+}
