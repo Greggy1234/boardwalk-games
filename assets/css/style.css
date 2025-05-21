@@ -73,17 +73,7 @@ h2 {
 
 #new-games .card,
 #fav-games .card {
-  border: none;
-  padding-left:0px;
-}
-
-
-
-#new-games .card-footer,
-#fav-games .card-footer {
-  background-color: transparent;
-  border:none;
-  padding-top:0px;
+    border: none;
 }
 
 /* Grid Visualisation */
