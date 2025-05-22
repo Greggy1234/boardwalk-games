@@ -73,6 +73,7 @@ h2 {
   padding:7px 25px;
 }
 
+
 /* Navbar */
 #navbar {
   background-color: var(--primary-color);
@@ -105,6 +106,18 @@ h2 {
 #fav-games .card {
   border: none;
 }
+
+/* Events */
+#events .custom-button-filled,
+#events .custom-button-filled:hover {
+  border-radius:0px;
+}
+
+#events-table * {
+  font-size: 0.7rem;
+}
+
+
 
 /* Footer / Contact */
 #contact {
@@ -141,6 +154,8 @@ h2 {
   background-color: transparent;
 }
 
+
+
 /* Grid Visualisation */
 /* .conainer, .row {
     border:2px solid black;
@@ -160,6 +175,11 @@ h2 {
   #services .card-body {
     min-height: 191px;
   }
+  
+  #events-table * {
+  font-size: 1rem;
+}
+
 
 }
 
@@ -180,6 +200,8 @@ h2 {
   #services .card-body {
     min-height: 218px;
   }
+
+  
 
 }
 
