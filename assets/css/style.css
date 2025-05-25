@@ -18,7 +18,7 @@
 /* Global Styles */
 body {
   font-family: var(--primary-font);
-  min-height: 50vh;
+  padding-top:57.15px; /* Makes sure the nav bar doesn't encroach on bosy elements */
 }
 
 h1,
