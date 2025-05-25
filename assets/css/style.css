@@ -18,7 +18,8 @@
 /* Global Styles */
 body {
   font-family: var(--primary-font);
-  padding-top:57.15px; /* Makes sure the nav bar doesn't encroach on bosy elements */
+  padding-top: 57.15px;
+  /* Makes sure the nav bar doesn't encroach on body elements */
 }
 
 h1,
@@ -42,34 +43,34 @@ h2 {
 }
 
 .section {
-  padding-top:4rem;
+  padding-top: 4rem;
 }
 
 /* Buttons */
 .custom-button-filled {
-  border:2px solid var(--highlight-color);
-  background-color:var(--highlight-color);
-  color:white;
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 .custom-button-filled:hover {
-  border:2px solid var(--secondary-color);
-  background-color:var(--secondary-color);
-  color:white;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .custom-button-outline {
-  border:2px solid var(--highlight-color);
-  background-color:white;
+  border: 2px solid var(--highlight-color);
+  background-color: white;
   color: var(--highlight-color);
-  padding:7px 25px;
+  padding: 7px 25px;
 }
 
 .custom-button-outline:hover {
-  border:2px solid var(--highlight-color);
+  border: 2px solid var(--highlight-color);
   background-color: var(--highlight-color);
   color: white;
-  padding:7px 25px;
+  padding: 7px 25px;
 }
 
 
@@ -100,7 +101,6 @@ h2 {
 }
 
 /* Games Section */
-
 #new-games .card,
 #fav-games .card {
   border: none;
@@ -109,14 +109,12 @@ h2 {
 /* Events */
 #events .custom-button-filled,
 #events .custom-button-filled:hover {
-  border-radius:0px;
+  border-radius: 0px;
 }
 
 #events-table * {
   font-size: 0.7rem;
 }
-
-
 
 /* Footer / Contact */
 #contact {
@@ -142,6 +140,8 @@ h2 {
 #contact .social-links i {
   color: var(--light-highlight-color);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -154,17 +154,6 @@ h2 {
 }
 
 
-
-/* Grid Visualisation */
-/* .conainer, .row {
-    border:2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color:lightgrey;
-} */
-
 /* Media Queries */
 
 /* Medium sized screens (tablets up, min width 768px) */
@@ -174,12 +163,10 @@ h2 {
   #services .card-body {
     min-height: 191px;
   }
-  
+
   #events-table * {
-  font-size: 1rem;
-}
-
-
+    font-size: 1rem;
+  }
 }
 
 /* Large sized screens (laptops up, min width 992px) */
@@ -189,7 +176,6 @@ h2 {
   #services .card-body {
     min-height: auto;
   }
-
 }
 
 /* XL sized screens (laptops up, min width 1200px) */
@@ -199,9 +185,6 @@ h2 {
   #services .card-body {
     min-height: 218px;
   }
-
-  
-
 }
 
 /* XXL sized screens (laptops up, min width 1400px) */
@@ -211,6 +194,4 @@ h2 {
   #services .card-body {
     min-height: 195px;
   }
-
-
 }
